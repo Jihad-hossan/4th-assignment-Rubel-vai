@@ -45,6 +45,61 @@ header{
             }
         }
     }
+    // navbar
+    .navbar1{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45%;
+        height: auto;
+        display: none;
+
+        .cancel{
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            padding: 6px;
+            box-shadow: 2px 2px 5px rgb(233, 215, 215);
+            border-radius: 50%;
+        }
+        ul {
+            list-style: none;
+            padding-bottom: 1rem !important;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 700;
+                    transition: .3s;
+                    &:hover {
+                        color: #4c8bf5;
+                    }
+                }
+            }
+        }
+        .btn {
+            background-color: $color1;
+            border: 2px solid $color1;
+            border-radius: 2rem;
+            color: #fff;
+            padding: .5rem 1rem;
+            font-weight: 600;
+            transition: .8s;
+
+            &:hover{
+                background-color: $color3;
+                border-color: $color1;
+                color: $color1;
+            }
+            &:focus{
+                background-color: $color3;
+                border-color: $color1;
+                color: $color1;
+            }
+        }
+    }
+    // navbar
     .banner-section{
         padding: 0;
         margin-top: 3rem;
@@ -109,6 +164,7 @@ header{
         background: url('../image/jabir-vai-curve.svg');
     }
 }
+// ***** sales section start
 .sales{
     .heading{
         h1{
@@ -116,6 +172,15 @@ header{
             span{
                 color: $color1;
             }
+        }
+    }
+    .icon{
+        transition: .5s;
+
+        &:hover{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 2.5rem 0;
+            border-radius: 2rem;
         }
     }
     .for-list-table{
@@ -267,6 +332,9 @@ header{
         }
         p{
             line-height: 2rem;
+        }
+        &:hover{
+            border: 1px solid $color2;
         }
     }
     .below-heading{
@@ -508,3 +576,543 @@ header{
     }
 }
 // ********* testimonila section end
+
+// ********* why choose us section start 
+.why-choose{
+    background: url('../image/bg.png') no-repeat;
+    background-size: cover;
+    padding-top: 6rem !important;
+    
+    .heading{
+        h2{
+            color: $color3;
+            line-height: 3rem;
+            font-weight: 600;
+             
+            span{
+                color: $color1;
+            }
+        }
+    }
+
+    .body-icon{
+        table{
+            tr{
+                td{
+                    padding: .5rem;
+                    cursor: pointer;
+                    transition: .4s;
+                    &:hover{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .left-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .below-heading{
+        // margin-top: .5rem;
+        h2{
+            color: $color3;
+
+            span{
+                color: $color1;
+            }
+        }
+        .button{
+            .btn1{
+                background-color: $color1;
+                border: 2px solid $color1;
+                border-radius: 2rem;
+                color: #fff;
+                padding: .5rem 1rem;
+                font-weight: 600;
+                transition: .8s;
+
+                &:hover{
+                    background-color: $color3;
+                    border-color: $color1;
+                    color: $color1;
+                }
+            }
+            .btn2{
+                border: 2px solid $color2;
+                border-radius: 2rem;
+                color: $color2;
+                font-weight: 600;
+                padding: .5rem 1rem;
+                transition: .8s;
+
+                &:hover{
+                    background-color: $color3;
+                    border-color: $color1;
+                    color: $color1;
+
+                }
+            }
+        }
+    }
+}
+// ******* why choose use section end
+
+// ******** check your offer section start 
+.check-your-offer{
+    background: url('../image/wawe-pattern-form.jpg.png') no-repeat center center;
+    background-size: contain;
+
+    .heading{
+        h2{
+            color: $color3;
+            line-height: 3rem;
+            font-weight: 600;
+             
+            span{
+                color: $color1;
+            }
+        }
+    }
+    .form{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 0;
+
+        h3{
+            background-color: $color2;
+            padding: 2rem 0;
+            font-weight: 600;
+            
+        }
+
+        form{
+            padding: 2rem 4rem;
+
+            .form-group{
+                padding: .5rem 0;
+
+                label{
+                    padding: .5rem 0;
+                    span{
+                        color: red;
+                    }
+                }
+
+                .form-control{
+                    border-left: none;
+                    border-right: none;
+                    border-top: none;
+                    border-bottom: 1px solid rgb(218, 213, 213);
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    &::placeholder{
+                        color: $color3;
+                        font-weight: 500;
+                    }
+
+                    &:focus{
+                        border-color: $color2;
+                        box-shadow: none;
+                    }
+                    &:hover{
+                        border-color: $color2;
+                        box-shadow: none;
+                    }
+                }
+            }
+            .below-heading{
+                .button{
+                    .btn1{
+                        background-color: $color1;
+                        border: 2px solid $color1;
+                        border-radius: 2rem;
+                        color: #fff;
+                        padding: .5rem 1rem;
+                        font-weight: 600;
+                        transition: .8s;
+        
+                        &:hover{
+                            background-color: $color3;
+                            border-color: $color1;
+                            color: $color1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// ******** check your offer section end
+
+// ********footer section start 
+footer{
+    background: url('../image/Bg-footer.png') no-repeat top center;
+    background-size: cover;
+
+    .heading{
+        p{
+            line-height: 2rem;
+        }
+    }
+    .d-flex{
+        justify-content: space-evenly;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: white;
+            transition: .5s;
+            &:hover{
+                color: $color2;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .below-heading{
+        .button{
+            .btn1{
+                background-color: $color1;
+                border: 2px solid $color1;
+                border-radius: 2rem;
+                color: #fff;
+                padding: .5rem 1rem;
+                font-weight: 600;
+                transition: .8s;
+
+                &:hover{
+                    background-color: $color3;
+                    border-color: $color1;
+                    color: $color1;
+                }
+            }
+            .btn2{
+                border: 2px solid $color2;
+                border-radius: 2rem;
+                color: $color2;
+                font-weight: 600;
+                padding: .5rem 1rem;
+                transition: .8s;
+
+                &:hover{
+                    background-color: $color3;
+                    border-color: $color1;
+                    color: $color1;
+
+                }
+            }
+        }
+    }
+    .copyright{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 3rem 0 0;
+
+        .for-color{
+            color: #7492ab;
+        }
+        .icon{
+            a{
+                margin: 0 .5rem;
+                transition: .3s;
+                color: #fff;
+                &:hover{
+                    color: $color2;
+                }
+            }
+        }
+    }
+}
+// ******** footer section end
+
+// ******* modal section start 
+.modal {
+    .modal-header{
+        position: relative;
+
+        .close{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        .color3{
+            color: #5a78af;
+        }
+    }
+    .modal-body{
+        background: url('../Image/plane-with-path.png') no-repeat center center;
+
+        .text{
+            font-size: .9rem;
+            padding-right: 4rem;
+           display: flex;
+           align-items: center;
+        }
+        .color2{
+            color: #6ebf7c;
+            font-size: 1.1rem;
+        }
+        form {
+            width: 80%;
+            margin: 5px auto;
+        }
+        .form-control{
+            border-color: #fb8c8c;
+        }
+    }
+    .call-btn{
+        border: 1px solid #4c8bf5;
+        border-radius: 20px;
+        background-color: #4c8bf5;
+        padding: 8px 20px;
+        transition: 1s;
+    }
+    .btn:focus{
+        background-color: $color3;
+        border-color: $color1;
+        color: $color1;
+    }
+    .btn:hover{
+        background-color: #6ebf7c;
+        color: #fff;
+        border-color: #6ebf7c;
+    }
+} 
+// **** modal section end
+
+// ****** media query start here
+@media (min-width: 992px) and (max-width: 1200px){
+    .recent-house-sold{
+        .images{
+            .img{
+                margin-top: 1rem;
+            }
+        }
+    }
+    .testimonial{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .slides{
+                        width: 90% !important;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .below-heading{
+           .button{
+               .btn2{
+                   margin-top: 1rem;
+               }
+           }
+        }
+    }
+}
+// ******** media query for 768px to 991px
+@media (min-width: 768px) and (max-width: 991px){
+    header{
+        .nav{
+            .sm-display-none{
+                display: none;
+            }
+        }
+        .banner-section{
+            .banner-text{
+                h1{
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                }
+                p{
+                    line-height: 1.5rem;
+                }
+            }
+            .button{
+                padding-top: 1rem !important;
+
+                .btn2{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    .cash-offers{
+        .for-img-middling{
+            margin: auto;
+        }
+        .heading{
+            text-align: center;
+        }
+    }
+    .selling-your-house{
+        .mycard{
+            margin-top: 3rem;
+        }
+    }
+    // selling your house section end
+    .recent-house-sold{
+        .images{
+            .img{
+                margin: 2rem;
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+
+            .button{
+                margin-top: 0;
+                padding-top: 0 !important;
+            }
+        }
+    }
+    // testimonial section start 
+    .testimonial{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .slides{
+                        flex-direction: column;
+                        width: 90% !important;
+
+                    }
+                }
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
+    .check-your-offer{
+        .form{
+            width: 75% !important;
+        }
+    }
+    .navbar1{
+        width: 60% !important;
+    }
+}
+// **** media query for 576px to 767px
+@media (min-width: 576px) and (max-width: 767px){
+    header{
+        .nav{
+            .sm-display-none{
+                display: none;
+            }
+        }
+        .banner-section{
+            .banner-text{
+                h1{
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                }
+                p{
+                    line-height: 1.5rem;
+                }
+            }
+            .button{
+                padding-top: 1rem !important;
+            }
+            .img{
+                width: 75% !important;
+                margin: auto;
+            }
+        }
+    }
+    // sales section start
+    .sales{
+        .icon{
+            margin: 1.5rem;
+        }
+        .heading{
+            padding-top: 0 !important;
+        }
+    }
+    // cash offers start here
+    .cash-offers{
+        .img{
+            text-align: center;
+            img{
+                width: 75%;
+            }
+        }
+        .heading{
+            text-align: center;
+        }
+        .body-icon{
+            margin-left: 5rem;
+        }
+    } 
+    // selling your house start
+    .selling-your-house{
+        .mycard{
+            width: 80%;
+            margin: auto;
+            margin-top: 3rem;
+        }
+    }
+    .recent-house-sold{
+        .heading{
+            padding-top: 0 !important;
+        }
+        .images{
+            .img{
+                margin: 1rem;
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+
+            .button{
+                margin-top: 0;
+                padding-top: 0 !important;
+            }
+        }
+    }
+    // testiminial start 
+    .testimonial{
+        padding-bottom: 0 !important;
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .slides{
+                        flex-direction: column;
+                        width: 95% !important;
+                        
+                        .left{
+                            width: 75px;
+                        }
+                        .right{
+                            width: 75px;
+                        }
+                        .text{
+                            padding: 0 .5rem;
+                        }
+                    }
+                }
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
+    // why choose start
+    .why-choose{
+        .body-icon{
+            margin-left: 5rem;
+        }
+    }
+    // check your offer 
+    .check-your-offer{
+        .form{
+            width: 75% !important;
+        }
+    }
+}

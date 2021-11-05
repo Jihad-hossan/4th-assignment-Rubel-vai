@@ -41,6 +41,65 @@ header .nav .cash-offer-btn .hambarger {
   right: 10%;
 }
 
+header .navbar1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: auto;
+  display: none;
+}
+
+header .navbar1 .cancel {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  padding: 6px;
+  -webkit-box-shadow: 2px 2px 5px #e9d7d7;
+          box-shadow: 2px 2px 5px #e9d7d7;
+  border-radius: 50%;
+}
+
+header .navbar1 ul {
+  list-style: none;
+  padding-bottom: 1rem !important;
+}
+
+header .navbar1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .navbar1 ul li a:hover {
+  color: #4c8bf5;
+}
+
+header .navbar1 .btn {
+  background-color: #8cc63f;
+  border: 2px solid #8cc63f;
+  border-radius: 2rem;
+  color: #fff;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+header .navbar1 .btn:hover {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+header .navbar1 .btn:focus {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
 header .banner-section {
   padding: 0;
   margin-top: 3rem;
@@ -116,6 +175,18 @@ header::after {
 
 .sales .heading h1 span {
   color: #8cc63f;
+}
+
+.sales .icon {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.sales .icon:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2.5rem 0;
+  border-radius: 2rem;
 }
 
 .sales .for-list-table table tr td {
@@ -264,6 +335,10 @@ header::after {
 
 .selling-your-house .mycard p {
   line-height: 2rem;
+}
+
+.selling-your-house .mycard:hover {
+  border: 1px solid #1375bc;
 }
 
 .selling-your-house .below-heading {
@@ -514,5 +589,495 @@ header::after {
   background-color: #162647;
   border-color: #8cc63f;
   color: #8cc63f;
+}
+
+.why-choose {
+  background: url("../image/bg.png") no-repeat;
+  background-size: cover;
+  padding-top: 6rem !important;
+}
+
+.why-choose .heading h2 {
+  color: #162647;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.why-choose .heading h2 span {
+  color: #8cc63f;
+}
+
+.why-choose .body-icon table tr td {
+  padding: .5rem;
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.why-choose .body-icon table tr td:hover {
+  font-weight: 600;
+}
+
+.why-choose .left-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.why-choose .below-heading h2 {
+  color: #162647;
+}
+
+.why-choose .below-heading h2 span {
+  color: #8cc63f;
+}
+
+.why-choose .below-heading .button .btn1 {
+  background-color: #8cc63f;
+  border: 2px solid #8cc63f;
+  border-radius: 2rem;
+  color: #fff;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.why-choose .below-heading .button .btn1:hover {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+.why-choose .below-heading .button .btn2 {
+  border: 2px solid #1375bc;
+  border-radius: 2rem;
+  color: #1375bc;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.why-choose .below-heading .button .btn2:hover {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+.check-your-offer {
+  background: url("../image/wawe-pattern-form.jpg.png") no-repeat center center;
+  background-size: contain;
+}
+
+.check-your-offer .heading h2 {
+  color: #162647;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.check-your-offer .heading h2 span {
+  color: #8cc63f;
+}
+
+.check-your-offer .form {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 0;
+}
+
+.check-your-offer .form h3 {
+  background-color: #1375bc;
+  padding: 2rem 0;
+  font-weight: 600;
+}
+
+.check-your-offer .form form {
+  padding: 2rem 4rem;
+}
+
+.check-your-offer .form form .form-group {
+  padding: .5rem 0;
+}
+
+.check-your-offer .form form .form-group label {
+  padding: .5rem 0;
+}
+
+.check-your-offer .form form .form-group label span {
+  color: red;
+}
+
+.check-your-offer .form form .form-group .form-control {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #dad5d5;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.check-your-offer .form form .form-group .form-control::-webkit-input-placeholder {
+  color: #162647;
+  font-weight: 500;
+}
+
+.check-your-offer .form form .form-group .form-control:-ms-input-placeholder {
+  color: #162647;
+  font-weight: 500;
+}
+
+.check-your-offer .form form .form-group .form-control::-ms-input-placeholder {
+  color: #162647;
+  font-weight: 500;
+}
+
+.check-your-offer .form form .form-group .form-control::placeholder {
+  color: #162647;
+  font-weight: 500;
+}
+
+.check-your-offer .form form .form-group .form-control:focus {
+  border-color: #1375bc;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.check-your-offer .form form .form-group .form-control:hover {
+  border-color: #1375bc;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.check-your-offer .form form .below-heading .button .btn1 {
+  background-color: #8cc63f;
+  border: 2px solid #8cc63f;
+  border-radius: 2rem;
+  color: #fff;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.check-your-offer .form form .below-heading .button .btn1:hover {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+footer {
+  background: url("../image/Bg-footer.png") no-repeat top center;
+  background-size: cover;
+}
+
+footer .heading p {
+  line-height: 2rem;
+}
+
+footer .d-flex {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .d-flex a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer .d-flex a:hover {
+  color: #1375bc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer .below-heading .button .btn1 {
+  background-color: #8cc63f;
+  border: 2px solid #8cc63f;
+  border-radius: 2rem;
+  color: #fff;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+footer .below-heading .button .btn1:hover {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+footer .below-heading .button .btn2 {
+  border: 2px solid #1375bc;
+  border-radius: 2rem;
+  color: #1375bc;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+footer .below-heading .button .btn2:hover {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 3rem 0 0;
+}
+
+footer .copyright .for-color {
+  color: #7492ab;
+}
+
+footer .copyright .icon a {
+  margin: 0 .5rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+footer .copyright .icon a:hover {
+  color: #1375bc;
+}
+
+.modal .modal-header {
+  position: relative;
+}
+
+.modal .modal-header .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal .modal-header .color3 {
+  color: #5a78af;
+}
+
+.modal .modal-body {
+  background: url("../Image/plane-with-path.png") no-repeat center center;
+}
+
+.modal .modal-body .text {
+  font-size: .9rem;
+  padding-right: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modal-body .color2 {
+  color: #6ebf7c;
+  font-size: 1.1rem;
+}
+
+.modal .modal-body form {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.modal .modal-body .form-control {
+  border-color: #fb8c8c;
+}
+
+.modal .call-btn {
+  border: 1px solid #4c8bf5;
+  border-radius: 20px;
+  background-color: #4c8bf5;
+  padding: 8px 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.modal .btn:focus {
+  background-color: #162647;
+  border-color: #8cc63f;
+  color: #8cc63f;
+}
+
+.modal .btn:hover {
+  background-color: #6ebf7c;
+  color: #fff;
+  border-color: #6ebf7c;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .recent-house-sold .images .img {
+    margin-top: 1rem;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides {
+    width: 90% !important;
+  }
+  footer .below-heading .button .btn2 {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header .nav .sm-display-none {
+    display: none;
+  }
+  header .banner-section .banner-text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  header .banner-section .banner-text p {
+    line-height: 1.5rem;
+  }
+  header .banner-section .button {
+    padding-top: 1rem !important;
+  }
+  header .banner-section .button .btn2 {
+    margin-top: 1rem;
+  }
+  .cash-offers .for-img-middling {
+    margin: auto;
+  }
+  .cash-offers .heading {
+    text-align: center;
+  }
+  .selling-your-house .mycard {
+    margin-top: 3rem;
+  }
+  .recent-house-sold .images .img {
+    margin: 2rem;
+  }
+  .recent-house-sold .below-heading {
+    margin-top: 0;
+  }
+  .recent-house-sold .below-heading .button {
+    margin-top: 0;
+    padding-top: 0 !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90% !important;
+  }
+  .testimonial .below-heading {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .check-your-offer .form {
+    width: 75% !important;
+  }
+  .navbar1 {
+    width: 60% !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  header .nav .sm-display-none {
+    display: none;
+  }
+  header .banner-section .banner-text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  header .banner-section .banner-text p {
+    line-height: 1.5rem;
+  }
+  header .banner-section .button {
+    padding-top: 1rem !important;
+  }
+  header .banner-section .img {
+    width: 75% !important;
+    margin: auto;
+  }
+  .sales .icon {
+    margin: 1.5rem;
+  }
+  .sales .heading {
+    padding-top: 0 !important;
+  }
+  .cash-offers .img {
+    text-align: center;
+  }
+  .cash-offers .img img {
+    width: 75%;
+  }
+  .cash-offers .heading {
+    text-align: center;
+  }
+  .cash-offers .body-icon {
+    margin-left: 5rem;
+  }
+  .selling-your-house .mycard {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .recent-house-sold .heading {
+    padding-top: 0 !important;
+  }
+  .recent-house-sold .images .img {
+    margin: 1rem;
+  }
+  .recent-house-sold .below-heading {
+    margin-top: 0;
+  }
+  .recent-house-sold .below-heading .button {
+    margin-top: 0;
+    padding-top: 0 !important;
+  }
+  .testimonial {
+    padding-bottom: 0 !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 95% !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .left {
+    width: 75px;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .right {
+    width: 75px;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .text {
+    padding: 0 .5rem;
+  }
+  .testimonial .below-heading {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .why-choose .body-icon {
+    margin-left: 5rem;
+  }
+  .check-your-offer .form {
+    width: 75% !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
