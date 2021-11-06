@@ -1079,5 +1079,242 @@ footer .copyright .icon a:hover {
   .check-your-offer .form {
     width: 75% !important;
   }
+  .navbar1 {
+    width: 60% !important;
+  }
+}
+
+@media (min-width: 446px) and (max-width: 575px) {
+  header .nav .sm-display-none {
+    display: none;
+  }
+  header .banner-section .banner-text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  header .banner-section .banner-text p {
+    line-height: 1.5rem;
+  }
+  header .banner-section .button {
+    padding-top: 1rem !important;
+  }
+  header .banner-section .img {
+    width: 75% !important;
+    margin: auto;
+  }
+  .sales .icon {
+    margin: 1.5rem;
+  }
+  .sales .heading {
+    padding-top: 0 !important;
+  }
+  .cash-offers .img {
+    text-align: center;
+  }
+  .cash-offers .img img {
+    width: 75%;
+  }
+  .cash-offers .heading {
+    text-align: center;
+  }
+  .cash-offers .body-icon {
+    margin-left: 3rem;
+  }
+  .cash-offers .below-heading {
+    padding-bottom: 1.5rem !important;
+  }
+  .cash-offers .below-heading .button {
+    padding-top: 2rem !important;
+  }
+  .cash-offers .below-heading .button .btn1 {
+    margin-bottom: .5rem;
+  }
+  .selling-your-house .heading {
+    padding-top: 0 !important;
+  }
+  .selling-your-house .mycard {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .selling-your-house .below-heading .button .btn2 {
+    margin-top: 1rem;
+  }
+  .recent-house-sold .heading {
+    padding-top: 0 !important;
+  }
+  .recent-house-sold .images .img {
+    margin: 1rem;
+  }
+  .recent-house-sold .below-heading {
+    margin-top: 0;
+    padding-bottom: 2rem !important;
+  }
+  .recent-house-sold .below-heading .button {
+    margin-top: 0;
+    padding-top: 0 !important;
+  }
+  .testimonial {
+    padding-bottom: 0 !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 95% !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .left {
+    width: 75px;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .right {
+    width: 75px;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .text {
+    padding: 0 .5rem;
+  }
+  .testimonial .below-heading {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .why-choose .body-icon {
+    margin-left: 3rem;
+  }
+  .check-your-offer .form {
+    width: 75% !important;
+  }
+  .navbar1 {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 445px) {
+  header .nav {
+    padding-left: 1rem;
+  }
+  header .nav .sm-display-none {
+    display: none;
+  }
+  header .nav .cash-offer-btn .cash-offer {
+    display: none;
+  }
+  header .banner-section .banner-text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  header .banner-section .banner-text p {
+    line-height: 1.5rem;
+  }
+  header .banner-section .button {
+    padding-top: 1rem !important;
+  }
+  header .banner-section .button .btn2 {
+    margin-top: .5rem;
+  }
+  header .banner-section .img {
+    width: 75% !important;
+    margin: auto;
+  }
+  .sales .icon {
+    margin: 1.5rem;
+  }
+  .sales .heading {
+    padding-top: 0 !important;
+  }
+  .sales .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .cash-offers .img {
+    text-align: center;
+  }
+  .cash-offers .img img {
+    width: 75%;
+  }
+  .cash-offers .heading {
+    text-align: center;
+  }
+  .cash-offers .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .selling-your-house .mycard {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .selling-your-house .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .recent-house-sold .heading {
+    padding-top: 0 !important;
+  }
+  .recent-house-sold .images .img {
+    margin: 1rem;
+  }
+  .recent-house-sold .below-heading {
+    margin-top: 0;
+  }
+  .recent-house-sold .below-heading .button {
+    margin-top: 0;
+    padding-top: 0 !important;
+    padding-bottom: 3rem;
+  }
+  .recent-house-sold .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .testimonial {
+    padding-bottom: 0 !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 95% !important;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .left {
+    width: 70px;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .right {
+    width: 70px;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .text {
+    padding: 0 .5rem;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .client-img {
+    text-align: center;
+  }
+  .testimonial .carousel .carousel-inner .carousel-item .slides .client-img img {
+    width: 60%;
+  }
+  .testimonial .below-heading {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .testimonial .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .check-your-offer .form {
+    width: 90% !important;
+  }
+  .check-your-offer .form form {
+    padding: 1rem 2rem !important;
+  }
+  .check-your-offer .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .why-choose .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  footer .d-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 2rem;
+  }
+  footer .below-heading .button .btn2 {
+    margin-top: .5rem;
+  }
+  .navbar1 {
+    width: 80% !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

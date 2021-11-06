@@ -1115,4 +1115,343 @@ footer{
             width: 75% !important;
         }
     }
+    .navbar1{
+        width: 60% !important;
+    }
+}
+// ****** media query for 446px 575px
+@media (min-width: 446px) and (max-width: 575px){
+
+    header{
+        .nav{
+            .sm-display-none{
+                display: none;
+            }
+        }
+        .banner-section{
+            .banner-text{
+                h1{
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                }
+                p{
+                    line-height: 1.5rem;
+                }
+            }
+            .button{
+                padding-top: 1rem !important;
+            }
+            .img{
+                width: 75% !important;
+                margin: auto;
+            }
+        }
+    }
+    // sales section start
+    .sales{
+        .icon{
+            margin: 1.5rem;
+        }
+        .heading{
+            padding-top: 0 !important;
+        }
+    }
+    // cash offers start here
+    .cash-offers{
+        .img{
+            text-align: center;
+            img{
+                width: 75%;
+            }
+        }
+        .heading{
+            text-align: center;
+        }
+        .body-icon{
+            margin-left: 3rem;
+        }
+        .below-heading{
+            padding-bottom: 1.5rem !important;
+            .button{
+                padding-top: 2rem !important;
+                
+                .btn1{
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    } 
+    // selling your house start
+    .selling-your-house{
+        .heading{
+            padding-top: 0 !important;
+        }
+        .mycard{
+            width: 80%;
+            margin: auto;
+            margin-top: 3rem;
+        }
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    .recent-house-sold{
+        .heading{
+            padding-top: 0 !important;
+        }
+        .images{
+            .img{
+                margin: 1rem;
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+            padding-bottom: 2rem !important;
+
+            .button{
+                margin-top: 0;
+                padding-top: 0 !important;
+            }
+        }
+    }
+    // testiminial start 
+    .testimonial{
+        padding-bottom: 0 !important;
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .slides{
+                        flex-direction: column;
+                        width: 95% !important;
+                        
+                        .left{
+                            width: 75px;
+                        }
+                        .right{
+                            width: 75px;
+                        }
+                        .text{
+                            padding: 0 .5rem;
+                        }
+                    }
+                }
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
+    // why choose start
+    .why-choose{
+        .body-icon{
+            margin-left: 3rem;
+        }
+    }
+    // check your offer 
+    .check-your-offer{
+        .form{
+            width: 75% !important;
+        }
+    }
+    .navbar1{
+        width: 70% !important;
+    }
+}
+// ********* media query for 320px 445px
+@media (min-width: 320px) and (max-width: 445px){
+    header{
+        .nav{
+            padding-left: 1rem;
+            .sm-display-none{
+                display: none;
+            }
+            .cash-offer-btn{
+                .cash-offer{
+                    display: none;
+                }
+            }
+        }
+        .banner-section{
+            .banner-text{
+                h1{
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                }
+                p{
+                    line-height: 1.5rem;
+                }
+            }
+            .button{
+                padding-top: 1rem !important;
+
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+            .img{
+                width: 75% !important;
+                margin: auto;
+            }
+        }
+    }
+    // sales section start
+    .sales{
+        .icon{
+            margin: 1.5rem;
+        }
+        .heading{
+            padding-top: 0 !important;
+        }
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    // cash offers start here
+    .cash-offers{
+        .img{
+            text-align: center;
+            img{
+                width: 75%;
+            }
+        }
+        .heading{
+            text-align: center;
+        }
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    } 
+    // selling your house start
+    .selling-your-house{
+        .mycard{
+            width: 80%;
+            margin: auto;
+            margin-top: 3rem;
+        }
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    .recent-house-sold{
+        .heading{
+            padding-top: 0 !important;
+        }
+        .images{
+            .img{
+                margin: 1rem;
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+
+            .button{
+                margin-top: 0;
+                padding-top: 0 !important;
+                padding-bottom: 3rem;
+
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    // testiminial start 
+    .testimonial{
+        padding-bottom: 0 !important;
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .slides{
+                        flex-direction: column;
+                        width: 95% !important;
+                        
+                        .left{
+                            width: 70px;
+                        }
+                        .right{
+                            width: 70px;
+                        }
+                        .text{
+                            padding: 0 .5rem;
+                        }
+                        .client-img{
+                            text-align: center;
+                            img{
+                                width: 60%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .below-heading{
+            margin-top: 0;
+            padding-top: 0;
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    
+    // check your offer 
+    .check-your-offer{
+        .form{
+            width: 90% !important;
+
+            form{
+                padding: 1rem 2rem !important;
+            }
+        }
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    .why-choose{
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    footer {
+        .d-flex{
+            flex-wrap: wrap;
+            padding-bottom: 2rem;
+        }
+        .below-heading{
+            .button{
+                .btn2{
+                    margin-top: .5rem;
+                }
+            }
+        }
+    }
+    .navbar1{
+        width: 80% !important;
+    }
 }
